@@ -55,7 +55,7 @@ fi
 
 #自动选择下载节点
 get_node_url(){
-	nodes=(http://125.88.182.172:5880 http://103.224.251.67 http://128.1.164.196 http://download.bt.cn https://raw.githubusercontent.com/vipfan/BtPanel6.x/master);
+	nodes=(https://raw.githubusercontent.com/vipfan/BtPanel6.x/master);
 	i=1;
 	if [ ! -f /bin/curl ];then
 		if [ -f /usr/local/curl/bin/curl ];then
