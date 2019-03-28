@@ -5,7 +5,7 @@ export LANG=en_US.UTF-8
 export LANGUAGE=en_US:en
 
 get_node_url(){
-	nodes=(http://125.88.182.172:5880 http://103.224.251.67 http://128.1.164.196 http://download.bt.cn https://raw.githubusercontent.com/vipfan/BtPanel6.x/master);
+	nodes=(https://raw.githubusercontent.com/vipfan/BtPanel6.x/master);
 	i=1;
 	for node in ${nodes[@]};
 	do
